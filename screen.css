@@ -1,0 +1,177 @@
+body html {
+    height 100%;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #ededed;
+    font-size: 13px;
+}
+
+h1 h2 h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#header-wrapper {
+    overflow: hidden;
+    background: #3b3b3b;
+}
+
+#header {
+    overflow: hidden;
+    height: 150px;
+}
+
+#logo {
+    float: left;
+    width: 400;
+}
+
+#logo h1 a {
+    display: block;
+    line-height: 150px;
+    text-decoration: none;
+    font-family: 'Archivo', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-left: 15px;
+}
+
+#menu {
+    float: right;
+    width: 700px;
+}
+
+#menu ul {
+    float: right;
+    margin: 0px;
+    padding: 60px 0px 0px 0px;
+    list-style: none;
+    line-height: normal;
+} 
+
+
+#menu li {
+    float: left;
+    margin-left: 10px;
+}
+
+#menu a {
+    display: block;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+#menu .active a {
+    background-color: #E7E7E7;
+    color: #444444;
+}
+
+#menu a:hover {
+    text-decoration: none;
+    background-color: #E7E7E7;
+    color: #444444;
+}
+
+#featured-wrapper {
+    overflow: hidden;
+    padding: 50px 0px;
+    background-color: #DDDDDD;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+}
+
+#featured header {
+    display: block;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.button {
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 10px 30px;
+    background-color: #3B3B3B;
+    -moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+    -o-transition: background-color .25s ease-in-out; 
+    -o-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(255,255,255, 1);
+    letter-spacing 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Archiva Narrow', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #FFFFFF;
+
+}
+
+.button:hover {
+    background-color: #E7E7E7;
+    color: #444444;
+}
+
+#content header {
+    display: block;
+    margin-bottom: 1px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #444444;
+}
+
+#two-column h3 {
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#two-column img {
+    float: left;
+    margin-right: 30px;
+    padding: 5px;
+    background: #FFFFFF;
+    opacity: 0.7;
+}
+#two-column img:hover {
+    opacity: 0.9;
+}
+
+#two-column .box-style {
+    overflow: hidden;
+    padding: 30px 0px;
+}
+    
+#two-column #tbox1 {
+    float: left;
+    width: 500px;
+}
+
+#two-column #tbox2 {
+    float: right;
+    width: 500px;
+}
